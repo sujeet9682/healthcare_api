@@ -92,7 +92,7 @@ npm start
 - **Description**: Get all services stored in the `services` collection.
 - **URI**:
 ```bash
-  http://localhost:5000/api/services/getAllServices
+  http://localhost:8000/api/services/getAllServices
   ```
 
 #### **PUT**  `/api/services/updateService/:id`
@@ -110,7 +110,7 @@ npm start
 - **Description**: Deletes a service by its `id`.
 - **URI**:
 ```bash
-  http://localhost:5000/api/services/updateService/:id
+  http://localhost:8000/api/services/updateService/:id
 ```
 
 ### 3. Error Handling
